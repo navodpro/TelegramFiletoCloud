@@ -1,7 +1,7 @@
 {
     "name": "Telegram MixDrop Bot",
     "description": "This bot uploads telegram files to MixDrop.co,File.io.",
-    "repository": "https://github.com/Abhijith-cloud/Telegram-MixDrop-Bot/",
+    "repository": "https://github.com/navodpro/Telegram-MixDrop-Bot/",
     "keywords": [
       "telegram",
       "pyrogram",
@@ -29,7 +29,7 @@
         "value": ""
       }, 
         "API_EMAIL": {
-        "description": "Your API_HASH from https://mixdrop.co/",
+        "description": "Your API_HASH Email from https://mixdrop.co/",
         "value": ""
       },
       "AUTH_USER": {
