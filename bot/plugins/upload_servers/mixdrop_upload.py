@@ -32,7 +32,7 @@ async def mixFileup(file, client, bot, s_time):
         await client.edit_message_text(
             chat_id=bot.from_user.id,
             message_id=bot.message_id,
-            text="Uploading to MixDrop..."
+            text="📤 Uploading to MixDrop... 📤"
         )
         email = env_email
         api_key = env_api_key
@@ -48,7 +48,7 @@ async def mixFileup(file, client, bot, s_time):
             await client.edit_message_text(
                 chat_id=bot.from_user.id,
                 message_id=bot.message_id,
-                text=f"Uploaded...100% in {time_data(s_time)}"
+                text=f"✅ Uploaded...100% in {time_data(s_time)}"
             )
             dl_b = f"https://mixdrop.co/f/{link['result']['fileref']}"
             await client.send_message(
@@ -60,17 +60,17 @@ async def mixFileup(file, client, bot, s_time):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            "DOWNLOAD URL",
+                            "🔗 DOWNLOAD URL 🔗",
                             url=f"{dl_b}"
                         )
                     ],
                         [
                             InlineKeyboardButton(
-                                "🗂 SOURCE",
-                                url="https://github.com/Abhijith-cloud/"
+                                "👊 Support 👊",
+                                url="https://t.me/InfinityBOTs_Support"
                             )
                         ]])
             )
     except FloodWait as e:
-        LOGGER.info(f"FILE UPLOAD ERROR: {e}")
+        LOGGER.info(f"❗ FILE UPLOAD ERROR: {e}")
         print(time.sleep(e.x))
