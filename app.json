@@ -33,8 +33,8 @@
         "value": ""
       },
       "AUTH_USER": {
-        "description": "Add Your Telegram Chat ID e.g: 1070202696, NEXT CHAT ID , AND NEXT CHAT ID",
-        "value" : "1070202696,"
+        "description": "Add Your Telegram Chat ID e.g: 694380168, NEXT CHAT ID , AND NEXT CHAT ID",
+        "value" : "694380168,"
       }
      },
      "buildpacks": [
