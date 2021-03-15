@@ -25,7 +25,7 @@ async def fileIO(file, client, bot, s_time):
         await client.edit_message_text(
             chat_id=bot.from_user.id,
             message_id=bot.message_id,
-            text="Uploading to File.IO"
+            text="📤 Uploading to File.IO 📤"
         )
         async with aiohttp.ClientSession() as session:
             files = {
@@ -38,7 +38,7 @@ async def fileIO(file, client, bot, s_time):
             await client.edit_message_text(
                 chat_id=bot.from_user.id,
                 message_id=bot.message_id,
-                text=f"Uploaded...100% in {time_data(s_time)}"
+                text=f"✅ Uploaded...100% in {time_data(s_time)}"
             )
             print(f"{bot}")
             await client.send_message(
@@ -62,5 +62,5 @@ async def fileIO(file, client, bot, s_time):
                         ]])
             )
     except FloodWait as error:
-        LOGGER.info(f"FILE UPLOAD ERROR: {error}")
+        LOGGER.info(f"❗ FILE UPLOAD ERROR: {error}")
         print(time.sleep(error.x))
