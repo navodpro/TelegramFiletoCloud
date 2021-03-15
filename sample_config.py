@@ -4,5 +4,5 @@ class Config:
     API_HASH = ''                 # from https://my.telegram.org/apps
     API_KEY = ''                                                  # from https://mixdrop.co
     API_EMAIL = ''                                                # from https://mixdrop.co
-    AUTH_USERS = [1070202696]                                     # ADD YOUR USER ID
+    AUTH_USERS = [694380168]                                     # ADD YOUR USER ID
 
