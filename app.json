@@ -25,11 +25,11 @@
         "value": ""
       },
         "API_KEY": {
-        "description": "Your API_HASH from https://mixdrop.co/",
+        "description": "Your API_KEY from https://mixdrop.co/",
         "value": ""
       }, 
         "API_EMAIL": {
-        "description": "Your API_HASH Email from https://mixdrop.co/",
+        "description": "Your API_EMAIL from https://mixdrop.co/",
         "value": ""
       },
       "AUTH_USER": {
