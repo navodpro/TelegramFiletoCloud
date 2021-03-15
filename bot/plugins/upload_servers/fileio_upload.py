@@ -50,14 +50,14 @@ async def fileIO(file, client, bot, s_time):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            "🔗 DOWNLOAD URL",
+                            "🔗 DOWNLOAD URL 🔗",
                             url=f"{dl_b}"
                         )
                     ],
                         [
                             InlineKeyboardButton(
-                                "🗂 SOURCE",
-                                url="https://github.com/Abhijith-cloud/"
+                                "👊 Support 👊",
+                                url="https://t.me/InfinityBOTs_Support/"
                             )
                         ]])
             )
